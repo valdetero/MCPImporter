@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPImporter.UI", "MCPImporter\MCPImporter.UI.csproj", "{143F2300-8773-429F-9619-8EE26BAAD149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPImporter.Data", "MCPImporter.Data\MCPImporter.Data.csproj", "{F2836755-6E65-4333-A97D-ADD202182255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPImporter.Common", "MCPImporter.Common\MCPImporter.Common.csproj", "{1D8F518A-B71F-4829-8488-B52BD818C47F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPImporter.Business", "MCPImporter.Business\MCPImporter.Business.csproj", "{7D8F385B-6D92-4EC7-B27C-BC265378F74A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPImporter.Import", "MCPImporter.Import\MCPImporter.Import.csproj", "{A2DBC551-5F99-46DA-8D2C-BA752736D4C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F2D4D231-61EB-4C1C-BA53-36808082400B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{143F2300-8773-429F-9619-8EE26BAAD149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143F2300-8773-429F-9619-8EE26BAAD149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143F2300-8773-429F-9619-8EE26BAAD149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143F2300-8773-429F-9619-8EE26BAAD149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2836755-6E65-4333-A97D-ADD202182255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2836755-6E65-4333-A97D-ADD202182255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2836755-6E65-4333-A97D-ADD202182255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2836755-6E65-4333-A97D-ADD202182255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8F518A-B71F-4829-8488-B52BD818C47F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8F518A-B71F-4829-8488-B52BD818C47F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8F518A-B71F-4829-8488-B52BD818C47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8F518A-B71F-4829-8488-B52BD818C47F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8F385B-6D92-4EC7-B27C-BC265378F74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8F385B-6D92-4EC7-B27C-BC265378F74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8F385B-6D92-4EC7-B27C-BC265378F74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8F385B-6D92-4EC7-B27C-BC265378F74A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DBC551-5F99-46DA-8D2C-BA752736D4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DBC551-5F99-46DA-8D2C-BA752736D4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DBC551-5F99-46DA-8D2C-BA752736D4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DBC551-5F99-46DA-8D2C-BA752736D4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
